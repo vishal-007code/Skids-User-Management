@@ -1,7 +1,5 @@
-
-
 .App {
-  background-color: #282c34;
+  background: linear-gradient(to right, #bdc3c7, #2c3e50);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -19,22 +17,3 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
 }
-
-.customCard {
-  background-color: #282c34;
-  color: white;
-  font-family: Industry;
-  margin-top: 10%;
-
-}
-
-.customCardBody {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 20px;
-}
-
-.userToggleBtn {
-  padding-right: 20px;
-}
-

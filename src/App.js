@@ -1,4 +1,5 @@
-import Home from "./component/Home";
+import UserComponent from "./component/UserComponent";
+import './App.css'
 const App = () => {
   return (
     <>
@@ -6,8 +7,8 @@ const App = () => {
         <header className="App-header">
           <h1 className="App-title">User Management System</h1>
         </header>
-        <Home></Home>
-      </div>{" "}
+        <UserComponent></UserComponent>
+      </div>
     </>
   );
 };
