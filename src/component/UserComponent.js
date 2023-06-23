@@ -72,7 +72,7 @@ const UserComponent = () => {
       <Button style={{display:'flex'}} variant="primary" onClick={handleOpenModal}>
         Add User
       </Button>
-      <Table striped bordered hover color='white'>
+      <Table striped bordered hover >
         <thead>
           <tr>
             <th>Name</th>
